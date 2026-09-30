@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Interactive Element Scanner",
+  "version": "1.0.0",
+  "description": "Scans the current page and lists all interactive HTML elements with their IDs/names.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
